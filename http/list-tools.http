@@ -1,9 +1,0 @@
-curl -X POST http://localhost:28080/mcp \
-  -H 'Content-Type: application/json' \
-  -H 'Accept: application/json, text/event-stream' \
-  -H 'mcp-session-id: 96753d0d56d04ec0aabef40323b7212b' \
-  -d '{
-    "jsonrpc": "2.0",
-    "id": "tools",
-    "method": "tools/list"
-  }'
